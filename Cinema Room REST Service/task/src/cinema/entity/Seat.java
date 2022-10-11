@@ -1,4 +1,4 @@
-package cinema;
+package cinema.entity;
 
 import org.hibernate.validator.constraints.Range;
 

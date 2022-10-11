@@ -1,4 +1,4 @@
-package cinema;
+package cinema.controller;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

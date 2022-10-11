@@ -1,13 +1,14 @@
-package cinema;
+package cinema.entity;
 
 import java.util.Map;
 
 public class Administrator {
 
-    private final String password = "super_secret";
-    private Map<String, Integer> stats;
+    private final String password;
+    private final Map<String, Integer> stats;
 
-    public Administrator(Map<String, Integer> stats) {
+    public Administrator(String password, Map<String, Integer> stats) {
+        this.password = password;
         this.stats = stats;
     }
 
